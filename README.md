@@ -22,11 +22,11 @@ EN 16931-compliant e-invoices (XRechnung, ZUGFeRD, Factur-X, Peppol BIS UBL, Spa
 
 German e-invoicing went mandatory for B2B in 2025 (Wachstumschancengesetz, §14 UStG). The EU is rolling out ViDA and Peppol mandates across member states. Most freelancers and micro-SMBs don't know — and the existing tools are either accountant-grade ERP or hand-rolled PDFs that don't validate.
 
-Scribo's bet: if e-invoicing is now infrastructure, it should be free, conversational, and reachable from any AI assistant. So we ship every surface as a separately-indexed open repo, with one hosted backend behind them.
+Scribo's bet: if e-invoicing is now infrastructure, it should be free, conversational, and reachable from any AI assistant. So we ship every surface as a separately-indexed public repo, with one hosted backend behind them.
 
 ## Built by Causa Prima
 
-Scribo is the first publicly distributed product from [Causa Prima](https://causaprima.ai), the agentic-AI CFO office for pre-seed/seed startups. The Scribo surface repos are open-source MIT. The hosted service and the Causa Prima platform behind it are proprietary.
+Scribo is the first publicly distributed product from [Causa Prima](https://causaprima.ai), the agentic-AI CFO office for pre-seed/seed startups. The Scribo repos and the hosted service behind them are proprietary — © Causa Prima Germany GmbH, all rights reserved.
 
 ## Status
 
@@ -41,4 +41,4 @@ Scribo is the first publicly distributed product from [Causa Prima](https://caus
 
 ## License
 
-MIT.
+Proprietary — © Causa Prima Germany GmbH. All rights reserved. See [LICENSE](./LICENSE).
