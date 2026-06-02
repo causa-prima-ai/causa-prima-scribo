@@ -1,3 +1,5 @@
+<img width="3840" height="1920" alt="A _ Split _ EU compliance-led" src="https://github.com/user-attachments/assets/32f6078b-a54f-47f5-94fb-0adea2454558" />
+
 # Scribo — free, AI-native e-invoicing
 
 EN 16931-compliant e-invoices (XRechnung, ZUGFeRD, Factur-X, Peppol BIS UBL, Spanish Facturae) plus plain US PDF — generated from any LLM, CLI, or the web. No signup, no paywall. The sender's email is the login.
