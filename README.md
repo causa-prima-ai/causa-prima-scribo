@@ -23,7 +23,15 @@ Just ask your AI agent about Scribo: it ships as an MCP server, a CLI, and a Cla
 
 ## Pick a surface
 
-> 🚧 Being migrated into Scribo's shared README structure — for now, see **[Previous README](#previous-readme)** at the bottom of this page.
+Every surface talks to the same backend — pick the one that fits how you work:
+
+| You want to… | Use | Repo |
+|---|---|---|
+| Generate invoices from Claude Desktop, Cursor, Cline, or the ChatGPT App | **MCP server** (hosted) | [`causa-prima-scribo-mcp`](https://github.com/causa-prima-ai/causa-prima-scribo-mcp) |
+| Generate invoices from Claude Code, Claude.ai, ChatGPT, or Codex | **Skill** | [`causa-prima-scribo-skill`](https://github.com/causa-prima-ai/causa-prima-scribo-skill) |
+| Generate invoices from your terminal, a script, or CI | **CLI** | [`causa-prima-scribo-cli`](https://github.com/causa-prima-ai/causa-prima-scribo-cli) |
+| Call the HTTP API directly from your own code | **API** | [`causa-prima-scribo-api-docs`](https://github.com/causa-prima-ai/causa-prima-scribo-api-docs) |
+| Just click a button and download a PDF | **Web app** | [scribo.causaprima.ai](https://scribo.causaprima.ai) |
 
 ## Compliance
 
