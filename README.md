@@ -25,13 +25,13 @@ Just ask your AI agent about Scribo: it ships as an MCP server, a CLI, and a Cla
 
 Every surface talks to the same backend and produces the same compliant invoices — pick the one that fits how you and your agents work.
 
-| Options        | Best for                    | What you get |
-| -------------- | --------------------------- | ------------ |
-| **Skill**      | Claude, ChatGPT & Codex     | A lightweight skill you add once — works across Claude Code, Claude.ai, Claude Desktop, ChatGPT, and the OpenAI Codex CLI through plain bash helpers. No server, no npm install. Just ask, and it drafts the invoice for you. |
-| **MCP server** | AI assistants & IDE clients | A hosted Model Context Protocol endpoint at `scribo.causaprima.ai/mcp` — add the URL to Claude Desktop, Cursor, Cline, the ChatGPT App, or any MCP client and your assistant generates invoices right in the chat. Nothing to install or run locally. |
-| **CLI**        | Terminals, scripts & CI     | The official npm package (`npm i -g @causaprima/scribo-cli`). `scribo create …` writes a finished invoice straight to a file, with sysexits-style exit codes that drop cleanly into shell scripts and pipelines. |
-| **HTTP API**   | Your own code               | The public REST contract every other surface is built on. POST a JSON payload, get back a compliant invoice (PDF + embedded XML) and a durable download URL. Anonymous, rate-limited, OpenAPI 3.1. |
-| **Web app**    | A quick one-off             | No setup at all. Describe an invoice in your browser and download the PDF. |
+| Options                                                                       | Best for                    | What you get |
+| ----------------------------------------------------------------------------- | --------------------------- | ------------ |
+| **[Skill](https://github.com/causa-prima-ai/causa-prima-scribo-skill)**       | Claude, ChatGPT & Codex     | A lightweight skill you add once — works across Claude Code, Claude.ai, Claude Desktop, ChatGPT, and the OpenAI Codex CLI through plain bash helpers. No server, no npm install. Just ask, and it drafts the invoice for you. |
+| **[MCP server](https://github.com/causa-prima-ai/causa-prima-scribo-mcp)**    | AI assistants & IDE clients | A hosted Model Context Protocol endpoint at `scribo.causaprima.ai/mcp` — add the URL to Claude Desktop, Cursor, Cline, the ChatGPT App, or any MCP client and your assistant generates invoices right in the chat. Nothing to install or run locally. |
+| **[CLI](https://github.com/causa-prima-ai/causa-prima-scribo-cli)**           | Terminals, scripts & CI     | The official npm package (`npm i -g @causaprima/scribo-cli`). `scribo create …` writes a finished invoice straight to a file, with sysexits-style exit codes that drop cleanly into shell scripts and pipelines. |
+| **[HTTP API](https://github.com/causa-prima-ai/causa-prima-scribo-api-docs)** | Your own code               | The public REST contract every other surface is built on. POST a JSON payload, get back a compliant invoice (PDF + embedded XML) and a durable download URL. Anonymous, rate-limited, OpenAPI 3.1. |
+| **[Web app](https://scribo.causaprima.ai)**                                   | A quick one-off             | No setup at all. Describe an invoice in your browser and download the PDF. |
 
 ## Compliance
 
