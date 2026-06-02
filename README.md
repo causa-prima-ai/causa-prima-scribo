@@ -23,15 +23,22 @@ Just ask your AI agent about Scribo: it ships as an MCP server, a CLI, and a Cla
 
 ## Pick a surface
 
-Every surface talks to the same backend — pick the one that fits how you work:
+Every surface talks to the same backend and produces the same compliant invoices — pick the one that fits how you work.
 
-| You want to… | Use | Repo |
-|---|---|---|
-| Generate invoices from Claude Desktop, Cursor, Cline, or the ChatGPT App | **MCP server** (hosted) | [`causa-prima-scribo-mcp`](https://github.com/causa-prima-ai/causa-prima-scribo-mcp) |
-| Generate invoices from Claude Code, Claude.ai, ChatGPT, or Codex | **Skill** | [`causa-prima-scribo-skill`](https://github.com/causa-prima-ai/causa-prima-scribo-skill) |
-| Generate invoices from your terminal, a script, or CI | **CLI** | [`causa-prima-scribo-cli`](https://github.com/causa-prima-ai/causa-prima-scribo-cli) |
-| Call the HTTP API directly from your own code | **API** | [`causa-prima-scribo-api-docs`](https://github.com/causa-prima-ai/causa-prima-scribo-api-docs) |
-| Just click a button and download a PDF | **Web app** | [scribo.causaprima.ai](https://scribo.causaprima.ai) |
+**MCP server — for AI assistants & IDE clients.** A hosted Model Context Protocol endpoint: add one URL to Claude Desktop, Cursor, Cline, the ChatGPT App, or any MCP client, and your assistant generates invoices right in the chat. Nothing to install or run locally.
+→ [`causa-prima-scribo-mcp`](https://github.com/causa-prima-ai/causa-prima-scribo-mcp) · hosted at `scribo.causaprima.ai/mcp`
+
+**Skill — for Claude, ChatGPT & Codex.** A lightweight skill you add once. Works across Claude Code, Claude.ai, Claude Desktop, ChatGPT, and the OpenAI Codex CLI through plain bash helpers — no server, no npm install. Just ask, and it drafts the invoice for you.
+→ [`causa-prima-scribo-skill`](https://github.com/causa-prima-ai/causa-prima-scribo-skill)
+
+**CLI — for terminals, scripts & CI.** The official npm package. `scribo create …` writes a finished invoice straight to a file, with sysexits-style exit codes that drop cleanly into shell scripts and pipelines.
+→ [`causa-prima-scribo-cli`](https://github.com/causa-prima-ai/causa-prima-scribo-cli) · `npm i -g @causaprima/scribo-cli`
+
+**HTTP API — for your own code.** The public REST contract every other surface is built on. POST a JSON payload, get back a compliant invoice (PDF + embedded XML) and a durable download URL. Anonymous, rate-limited, OpenAPI 3.1.
+→ [`causa-prima-scribo-api-docs`](https://github.com/causa-prima-ai/causa-prima-scribo-api-docs)
+
+**Web app — for a quick one-off.** No setup at all. Describe an invoice in your browser and download the PDF.
+→ [scribo.causaprima.ai](https://scribo.causaprima.ai)
 
 ## Compliance
 
