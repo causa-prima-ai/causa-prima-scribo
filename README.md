@@ -107,10 +107,10 @@ EN 16931-compliant e-invoices (XRechnung, ZUGFeRD, Factur-X, Peppol BIS UBL, Spa
 
 | You want… | Use | Repo |
 |---|---|---|
-| To generate invoices from Claude Desktop, Cursor, Cline, ChatGPT App | **MCP server** (hosted) | [`scribo-mcp`](https://github.com/causa-prima-ai/scribo-mcp) |
-| To generate invoices from Claude Code or Codex CLI | **Skill** | [`scribo-skill`](https://github.com/causa-prima-ai/scribo-skill) |
-| To generate invoices from a terminal or a shell script | **CLI** _(planned — track the repo)_ | [`scribo-cli`](https://github.com/causa-prima-ai/scribo-cli) |
-| To call the HTTP API directly from your own code | **API** | [`scribo-api-docs`](https://github.com/causa-prima-ai/scribo-api-docs) |
+| To generate invoices from Claude Desktop, Cursor, Cline, ChatGPT App | **MCP server** (hosted) | [`scribo-mcp`](https://github.com/causa-prima-ai/causa-prima-scribo-mcp) |
+| To generate invoices from Claude Code or Codex CLI | **Skill** | [`scribo-skill`](https://github.com/causa-prima-ai/causa-prima-scribo-skill) |
+| To generate invoices from a terminal or a shell script | **CLI** _(planned — track the repo)_ | [`scribo-cli`](https://github.com/causa-prima-ai/causa-prima-scribo-cli) |
+| To call the HTTP API directly from your own code | **API** | [`scribo-api-docs`](https://github.com/causa-prima-ai/causa-prima-scribo-api-docs) |
 | To click a button and download a PDF | **Web app** | [scribo.causaprima.ai](https://scribo.causaprima.ai) |
 
 ## Why Scribo exists
