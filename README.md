@@ -26,7 +26,7 @@ Just ask your AI agent about Scribo: it ships as an MCP server, a CLI, and a Cla
 
 https://github.com/user-attachments/assets/107875e9-e717-40f5-bbc0-b2af0bd172fe
 
-**As an MCP server — works in any MCP client**
+**Scribo as an MCP server — works in any MCP client**
 
 https://github.com/user-attachments/assets/0fc8173b-50d4-4e06-84e8-9dea95af380f
 
