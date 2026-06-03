@@ -22,16 +22,13 @@ Just ask your AI agent about Scribo: it ships as an MCP server, a CLI, and a Cla
 **Built by Causa Prima** — Scribo is built by [**Causa Prima**](https://causaprima.ai/), a company building agentic AI for the CFO office. It's our first freely available skill — an early glimpse of what we're building.
 
 ## Demo
+**Scribo as a skill - works for any Agent that can run the skill**
 
-Scribo is built to be operated by an AI agent — describe an invoice in plain language and it hands back a compliant **ZUGFeRD** invoice, validated against EN 16931. Here are the two main agent surfaces in action:
-
-**As a Claude skill**
-
-<!-- Drag scribo-skill-demo.mp4 onto this line in the GitHub web editor, then delete this comment. -->
+https://github.com/user-attachments/assets/107875e9-e717-40f5-bbc0-b2af0bd172fe
 
 **As an MCP server — works in any MCP client**
 
-<!-- Drag scribo-mcp-demo.mp4 onto this line in the GitHub web editor, then delete this comment. -->
+https://github.com/user-attachments/assets/0fc8173b-50d4-4e06-84e8-9dea95af380f
 
 Prefer the terminal, your own code, or a browser? See [Pick a surface](#pick-a-surface).
 
